@@ -29,17 +29,17 @@
             <ion-label>
               <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
             </ion-label>
-            <ion-input id="email" type="text" required placeholder="Email *"></ion-input>
+            <ion-input id="email" type="text"  placeholder="Email *"></ion-input>
           </ion-item>
           <ion-item>
             <ion-label>
               <ion-icon ios="ios-unlock" md="md-unlock"></ion-icon>
             </ion-label>
-              <ion-input id="password" required placeholder="Password *"></ion-input>
+              <ion-input id="password"  placeholder="Password *"></ion-input>
             <button ion-button clear class="eye-icon-btn" type="button" item-right (click)="managePassword()"><ion-icon></ion-icon></button>
           </ion-item>
         </ion-list>
-        <button type="submit" ion-button full color="dark">Ingresar</button>
+        <button type="submit" ion-button full color="dark"  (click)="principal()"  >Ingresar</button>
     </form>
     <div padding text-center class="form-bottom-text" ><a (click)="forgetpassword()"> Olvido Contraseña?</a></div>
         <div padding text-center class="form-bottom-text">

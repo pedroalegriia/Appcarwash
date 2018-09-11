@@ -1,17 +1,36 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+
+  <ion-navbar class="titulo" color='navbarColor'>
+    <ion-title>Autolavado</ion-title>
   </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class="fondo" no-bounce>
+  <ion-slides class="cover2"  autoplay="3000" loop="true" speed="2000">
+
+  <ion-slide>
+    <img src="assets/imgs/promo.jpg"   class="d-block w-100" alt=""/>
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/imgs/promo2.jpg" class="d-block w-100" alt=""/>
+  </ion-slide>
+  <ion-slide>
+    <img src="assets/imgs/promo.jpg" class="d-block w-100" alt=""/>
+  </ion-slide>
+</ion-slides>
+
+<p>  </p>
+
+<button ion-button icon-start class="boton1" (click)="expediente()">
+  <ion-icon name=""></ion-icon>
+  Cita
+</button>
+
+<button ion-button icon-start class="boton2" (click)="hospital()">
+  <ion-icon ></ion-icon>
+  lavado
+</button><br><br>
+
+<label for="">Busca el mas cercano</label>
 </ion-content>

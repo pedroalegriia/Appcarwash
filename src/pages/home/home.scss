@@ -1,3 +1,77 @@
 page-home {
+  .fondo{
+
+  }
+img {
+     position: absolute;
+     left: -100%;
+     right: -100%;
+     top: -165%;
+     bottom: -100%;
+     margin: auto;
+     min-height: 30%;
+     min-width: 30%;
+ }
+
+ .cover {
+     width: 80%;
+     height: 25%;
+     overflow: hidden;
+     position: relative;
+ }
+ p {
+     margin-top: -90%;
+     text-align: center;
+     font-size: 1.2em;
+     color: blue;
+     font-weight: 800;
+}
+.boton1{
+  text-decoration: none;
+  padding: 40px;
+  left: 15%;
+  font-family: arial;
+  text-transform: uppercase;
+  padding-left: 25px;
+  padding-right: 30px;
+  font-weight: 800;
+  font-size: 15px;
+  color: #F00915;
+  background-color: #F2F2F2;
+}
+.boton2{
+    text-decoration: none;
+    padding: 40px;
+    left: 25%;
+    font-family: arial;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-weight: 800;
+    font-size: 15px;
+    color: #F00915;
+    background-color: #F2F2F2;
+  }
+
+
+  .problema{
+    font-size: 1.2em;
+     margin-top: -100%;
+      color: blue;
+      font-family: arial;
+    padding-right: 300px;
+    bottom: -100%;
+
+  }
+  label{
+
+      bottom: 5%;
+      right: 50px;
+    text-align: center;
+    font-size: 1 em;
+    color: blue;
+    font-weight: 800;
+  }
+
 
 }
