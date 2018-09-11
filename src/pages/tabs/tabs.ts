@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 import { HistorialPage } from '../historial/historial';
-import { ContactPage } from '../contact/contact';
+import { PerfilPage } from '../perfil/perfil';
+import { PagosPage } from '../pagos/pagos';
 import { HomePage } from '../home/home';
 
 @Component({
@@ -11,7 +12,8 @@ export class TabsPage {
 
   tab1Root = HomePage;
   tab2Root = HistorialPage;
-  tab3Root = ContactPage;
+  tab3Root = PagosPage;
+  tab4Root = PerfilPage;
   selectedTabIndex=0;
   constructor() {
 
