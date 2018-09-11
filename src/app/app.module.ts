@@ -4,6 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { HistorialPage } from '../pages/historial/historial';
+import { ResertpasswordPage } from '../pages/resertpassword/resertpassword';
 import { PagosPage } from '../pages/pagos/pagos';
 import { PerfilPage } from '../pages/perfil/perfil';
 import { HomePage } from '../pages/home/home';
@@ -16,7 +17,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-
+    ResertpasswordPage,
     HistorialPage,
     PagosPage,
     PerfilPage,
@@ -30,7 +31,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-
+    ResertpasswordPage,
     HistorialPage,
     PagosPage,
     PerfilPage,
